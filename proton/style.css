@@ -403,8 +403,8 @@ ul#userinfo_minor a:hover {
 #logo a {
 	display: block;
 	height: 120px;
-	background: transparent url('images/what_head3_shadow.jpg') no-repeat top left;
-	margin-left: -28px;
+	background: transparent url('images/logo-sprite-light.png') no-repeat top left;
+	margin-left: -68px;
 	margin-top: -18px;
 }
 
