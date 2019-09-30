@@ -280,7 +280,7 @@ ul#userinfo_stats li {
 }
 
 ul#userinfo_username li a {
-	color: #bebebe;
+	color: #b10000;
 	overflow: hidden;
 }
 
@@ -290,7 +290,7 @@ ul#userinfo_username li a:hover {
 }
 
 ul#userinfo_username li a.username {
-	color: #575757;
+	color: #2b2b2b;
 	max-width: 70px;
 	text-overflow: ellipsis;
 }
@@ -301,7 +301,7 @@ ul#userinfo_username li a.username:hover {
 }
 
 ul#userinfo_major li a {
-	color: #575757;
+	color: #007dc6;;
 }
 
 ul#userinfo_major li a:hover {
@@ -419,7 +419,7 @@ ul#userinfo_username,
 
 #menu ul {
 	z-index: 6;
-	padding-left: 120px;
+	padding-left: 140px;
 	padding-bottom: 0;
 }
 
