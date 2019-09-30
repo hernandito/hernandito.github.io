@@ -404,7 +404,8 @@ ul#userinfo_minor a:hover {
 	display: block;
 	height: 120px;
 	background: transparent url('images/logo-sprite-light.png') no-repeat top left;
-	margin-left: -90-18px;
+	margin-left: -98px;
+	margin-top: 0px;
 }
 
 #menu ul,
