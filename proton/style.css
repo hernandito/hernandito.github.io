@@ -525,8 +525,8 @@ ul#userinfo_username {
 	-moz-background-clip: padding-box;
 	background-clip: padding-box;
 	-webkit-background-clip: border-box;
--webkit-box-shadow: 2px 2px 12px 7px #303030;
-box-shadow: 2px 2px 12px 7px #303030;
+-webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
+box-shadow: 2px 2px 12px 7px #0F0F0F;
 	
 }
 
