@@ -998,11 +998,11 @@ strong.quoteheader {
 }
 
 .torrent_table tr.group:not(.discog) {
-	background-color: #f5f5f5;
+	background-color: #fffbe4;
 }
 
 .torrent_table tr.group:not(.discog):hover {
-	background-color: #eeeeee !important;
+	background-color: #d3e9ff !important;
 }
 
 .torrent_table tr.group.discog td:nth-of-type(1) {
