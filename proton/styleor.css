@@ -1,7 +1,7 @@
 /* GLOBAL */
 
 body {
-	background: #3f3f3f url('images/ordarkback.png') top left repeat-x;
+	background: #c4c4c4 url('images/ordarkback.png') top left repeat-x;
 	font-family: Arial, sans-serif;
 	font-size: 0.7em;
 	margin-bottom: 0;
@@ -61,8 +61,6 @@ a img {
 }
 
 #footer p:first-child {
-	background: url('images/what_logo.png') 15px 0 no-repeat;
-	padding: 0 0 0 130px;
 	border: 0;
 	width: 180px;
 }
@@ -280,7 +278,7 @@ ul#userinfo_stats li {
 }
 
 ul#userinfo_username li a {
-	color: #b10000;
+	color: #bebebe;
 	overflow: hidden;
 }
 
@@ -290,11 +288,9 @@ ul#userinfo_username li a:hover {
 }
 
 ul#userinfo_username li a.username {
-	color: #249300;
-	font-size: 1.3em;
-	max-width: 79px;
+	color: #575757;
+	max-width: 70px;
 	text-overflow: ellipsis;
-	background-color: #EEEEAE;
 }
 
 ul#userinfo_username li a.username:hover {
@@ -303,7 +299,7 @@ ul#userinfo_username li a.username:hover {
 }
 
 ul#userinfo_major li a {
-	color: #007dc6;;
+	color: #575757;
 }
 
 ul#userinfo_major li a:hover {
@@ -404,10 +400,10 @@ ul#userinfo_minor a:hover {
 
 #logo a {
 	display: block;
-	height: 121px;
-	background: transparent url('images/orlogo.png') no-repeat top left;
-	margin-left: 2px;
-	margin-top: 0px;
+	height: 110px;
+	background: url('images/logo.png') no-repeat top left;
+	margin-left: -28px;
+	margin-top: -18px;
 }
 
 #menu ul,
@@ -421,7 +417,7 @@ ul#userinfo_username,
 
 #menu ul {
 	z-index: 6;
-	padding-left: 140px;
+	padding-left: 120px;
 	padding-bottom: 0;
 }
 
@@ -451,8 +447,8 @@ ul#userinfo_username {
 
 #alerts {
 	z-index: 1;
-	padding-left: 510px;
-	padding-top: 34px;
+	padding-left: 508px;
+	padding-top: 36px;
 }
 
 /* SEARCH BARS */
@@ -506,7 +502,6 @@ ul#userinfo_username {
 	height: 80px;
 	width: 118px;
 	text-indent: -2000em;
-	/*	background: transparent url('images/what_head3.jpg') no-repeat top left;*/
 	padding: 0;
 	margin: 0;
 	float: left;
@@ -523,23 +518,18 @@ ul#userinfo_username {
 	border-radius: 11px;
 	z-index: 2;
 	position: relative;
-/*	border: 1px solid #b5b5b5; */
+	border: 1px solid #b5b5b5;
 	-moz-background-clip: padding-box;
 	background-clip: padding-box;
 	-webkit-background-clip: border-box;
--webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
-box-shadow: 2px 2px 12px 7px #0F0F0F;
-	
 }
 
 #content .header h2,
 #content > .thin > h2:first-child,
 #content > .thin > .header:first-of-type > h3:first-of-type {
-	background-color: #fffdf1;
-
-	/*background-color: #f0f0f0;  */
+	background-color: #f0f0f0;
 	margin: 20px -20px -1px -20px !important;
-	padding: 10px;
+	padding: 20px;
 	-moz-border-radius-topleft: 11px;
 	-webkit-border-radius-topleft: 11px;
 	border-top-left-radius: 11px;
@@ -1002,11 +992,11 @@ strong.quoteheader {
 }
 
 .torrent_table tr.group:not(.discog) {
-	background-color: #fffbe4;
+	background-color: #f5f5f5;
 }
 
 .torrent_table tr.group:not(.discog):hover {
-	background-color: #d3e9ff !important;
+	background-color: #eeeeee !important;
 }
 
 .torrent_table tr.group.discog td:nth-of-type(1) {
@@ -1046,12 +1036,10 @@ tr.torrent .bookmark > a:after {
 
 .torrent_table .pad td {
 	padding: 20px !important;
-	/*background: url('images/download.png') 105% -20px no-repeat;*/
 	background: url('images/download.png') top left no-repeat;
 }
 
 .torrent_table .pad {
-	/*background: url('images/download.png') 105% -20px no-repeat;*/
 	background: url('images/download_bottom.png') bottom left no-repeat;
 }
 
@@ -1143,9 +1131,9 @@ tr.torrent .bookmark > a:after {
 .main_column .box .head,
 .box2 .head,
 #blog .box .head {
-	background-color: #ececec;
+	background-color: #f0f0f0;
 	padding: 10px !important;
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid #c6c6c6;
 	-moz-border-radius-topleft: 4px;
 	-webkit-border-radius-topleft: 4px;
 	border-top-left-radius: 4px;
@@ -1164,7 +1152,7 @@ tr.torrent .bookmark > a:after {
 #blog .box,
 .box2 {
 	background-color: #f5f5f5;
-	border: 1px solid #f5f5f5;
+	border: 1px solid #dcdcdc;
 	margin: 0 0 20px 0;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -1253,7 +1241,7 @@ tr.torrent .bookmark > a:after {
 }
 
 .main_column .group {
-	background: #fffdf3 url('images/discogbglightshadow.png') top left repeat-x;
+	background: #c2c2c2 url('images/discogbglightshadow.png') top left repeat-x;
 }
 
 .main_column .group td {
@@ -1802,7 +1790,7 @@ h3 {
 
 #musicbrainz_popup a#mb,
 #musicbrainz_popup a.mb {
-	background: transparent url(https://whatimg.com/i/i7umji.png) no-repeat !important;
+	/* background: transparent url(https://whatimg.com/i/i7umji.png) no-repeat !important; */
 	display: inline-block;
 	text-indent: -5000px;
 	overflow: hidden;
@@ -2147,4 +2135,8 @@ TODO: Make these rules apply globally and add exceptions where needed
 
 #reportsv2 .manage_form img {
 	max-width: 600px;
+}
+
+#reportsv2 .manage_form {
+	width: 920px;
 }
