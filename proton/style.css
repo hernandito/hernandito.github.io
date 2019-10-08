@@ -402,8 +402,8 @@ ul#userinfo_minor a:hover {
 
 #logo a {
 	display: block;
-	height: 121px;
-	background: transparent url('images/red-logo.png') no-repeat top left;
+	width: 110px;
+	background: transparent url('images/red-login2.png') no-repeat top left;
 	margin-left: 2px;
 	margin-top: 0px;
 }
