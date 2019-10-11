@@ -90,7 +90,7 @@ a img {
 
 #header {
 	padding: 0;
-	margin: 20px 0 0 0;
+	margin: 8px 0 0 0;
 }
 
 /* GENERAL */
@@ -440,7 +440,7 @@ ul#userinfo_minor {
 
 ul#userinfo_stats {
 	z-index: 3;
-	margin-top: 47px;
+	margin-top: 17px;
 	padding-left: 510px;
 }
 
