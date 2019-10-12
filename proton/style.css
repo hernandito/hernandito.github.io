@@ -103,7 +103,7 @@ height: 122px;
 border-radius: 11px;	
 -webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
 box-shadow: 2px 2px 12px 7px #0F0F0F;	
-	
+
 }
 
 /* GENERAL */
@@ -298,7 +298,6 @@ ul#userinfo_stats li {
 	font-weight: bold;
 }
 
-
 ul#userinfo_username li a {
 	color: #b10000;
 	overflow: hidden;
@@ -323,7 +322,7 @@ ul#userinfo_username li a.username:hover {
 }
 
 ul#userinfo_major li a {
-	color: #007dc6;;
+	color: #007dc6;
 }
 
 ul#userinfo_major li a:hover {

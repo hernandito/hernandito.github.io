@@ -103,6 +103,7 @@ height: 122px;
 border-radius: 11px;	
 -webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
 box-shadow: 2px 2px 12px 7px #0F0F0F;	
+
 }
 
 /* GENERAL */
@@ -312,7 +313,7 @@ ul#userinfo_username li a.username {
 	font-size: 1.1em;
 	max-width: 74px;
 	text-overflow: ellipsis;
-	background-color: #EEEEAE;					   
+	background-color: #EEEEAE;
 }
 
 ul#userinfo_username li a.username:hover {
@@ -334,7 +335,7 @@ ul#userinfo_stats li {
 	color: #575757;
 	
 	border-bottom: 1px solid #ccc;
-padding-bottom: 6px; 			
+padding-bottom: 6px;
 }
 
 ul#userinfo_stats li a {
