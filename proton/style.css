@@ -334,7 +334,7 @@ ul#userinfo_stats li {
 	font-weight: normal;
 	color: #575757;
 	
-	border-bottom: 1px solid #575757;
+	border-bottom: 1px solid #ccc;
 padding-bottom: 6px;
 }
 
@@ -1422,6 +1422,7 @@ tr.torrent .bookmark > a:after {
 
 .r50 {
 	color: #418B00;
+	font-weight: bold;
 }
 
 .r99 {
