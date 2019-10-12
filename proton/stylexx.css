@@ -1,7 +1,7 @@
-/* GLOBAL Link: https://hernandito.github.io/proton/style.css */
+/* GLOBAL */
 
 body {
-	background: #3f3f3f url('images/darkback2.png') top left repeat;
+	background: #c4c4c4 url('images/what_bg.jpg') top left repeat-x;
 	font-family: Arial, sans-serif;
 	font-size: 0.7em;
 	margin-bottom: 0;
@@ -61,7 +61,7 @@ a img {
 }
 
 #footer p:first-child {
-	background: url('images/what_logo.png') 15px 0 no-repeat;
+	background: url('https://ptpimg.me/148ey5.png') 15px 0 no-repeat;
 	padding: 0 0 0 130px;
 	border: 0;
 	width: 180px;
@@ -89,21 +89,8 @@ a img {
 }
 
 #header {
-/*	padding: 0;
-	margin: 8px 0 0 0;
- NEW HR STUFF */	
-padding-left: 20px;
-padding-right: 20px;
-background-color: #f5f5f5;
-margin-top: 20px;
-padding-top: 10px;
-height: 122px;
--moz-border-radius: 11px;
--webkit-border-radius: 11px;
-border-radius: 11px;	
--webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
-box-shadow: 2px 2px 12px 7px #0F0F0F;	
-	
+	padding: 0;
+	margin: 20px 0 0 0;
 }
 
 /* GENERAL */
@@ -126,7 +113,7 @@ h4 {
 }
 
 .rowa td {
-	background-color: #fffcef;
+	background-color: #f5f5f5;
 }
 
 .rowb td {
@@ -159,7 +146,7 @@ textarea {
 }
 
 textarea {
-	width: 500px !important;
+	width: 500px;
 	height: 100px;
 }
 
@@ -201,23 +188,17 @@ textarea:focus,
 }
 
 #searchbars input {
-	background: transparent url('images/searchbox2.png') top left no-repeat;
+	background: transparent url('images/searchbox.png') top left no-repeat;
 	border: 0 !important;
 	height: 19px !important;
-	width: 121px !important;
+	width: 131px !important;
 	margin: 0 !important;
 	padding: 3px 5px 0 19px !important;
 	outline: none;
 }
 
 #searchbars input:focus {
-	background: transparent url('images/searchbox2.png') 0 -23px no-repeat;
-	border: 0 !important;
-	height: 19px !important;
-	width: 121px !important;
-	margin: 0 !important;
-	padding: 3px 5px 0 19px !important;
-	outline: none;
+	background: transparent url('images/searchbox.png') 0 -23px no-repeat;
 }
 
 input[type="submit"],
@@ -298,9 +279,8 @@ ul#userinfo_stats li {
 	font-weight: bold;
 }
 
-
 ul#userinfo_username li a {
-	color: #b10000;
+	color: #bebebe;
 	overflow: hidden;
 }
 
@@ -310,11 +290,9 @@ ul#userinfo_username li a:hover {
 }
 
 ul#userinfo_username li a.username {
-	color: #333;
-	font-size: 1.1em;
-	max-width: 74px;
+	color: #575757;
+	max-width: 70px;
 	text-overflow: ellipsis;
-	background-color: #EEEEAE;
 }
 
 ul#userinfo_username li a.username:hover {
@@ -323,7 +301,7 @@ ul#userinfo_username li a.username:hover {
 }
 
 ul#userinfo_major li a {
-	color: #007dc6;;
+	color: #575757;
 }
 
 ul#userinfo_major li a:hover {
@@ -334,9 +312,6 @@ ul#userinfo_major li a:hover {
 ul#userinfo_stats li {
 	font-weight: normal;
 	color: #575757;
-	
-	border-bottom: 1px solid #ccc;
-padding-bottom: 6px;
 }
 
 ul#userinfo_stats li a {
@@ -427,10 +402,10 @@ ul#userinfo_minor a:hover {
 
 #logo a {
 	display: block;
-	height: 121px;
-	background: transparent url('images/redlogo.png') no-repeat top left;
-	margin-left: 2px;
-	margin-top: 0px;
+	height: 120px;
+	background: transparent url('/static/styles/proton/images/red-proton.png') no-repeat top left;
+	margin-left: -28px;
+	margin-top: -18px;
 }
 
 #menu ul,
@@ -444,21 +419,20 @@ ul#userinfo_username,
 
 #menu ul {
 	z-index: 6;
-	padding-left: 140px;
+	padding-left: 120px;
 	padding-bottom: 0;
 }
 
 ul#userinfo_major {
 	z-index: 2;
 	padding-left: 510px;
-	padding-top: 60px;
 	width: 300px;
 }
 
 ul#userinfo_minor {
 	z-index: 4;
-	padding-top: 0px;
-	padding-left: 300px;
+	padding-top: 17px;
+	padding-left: 290px;
 }
 
 ul#userinfo_stats {
@@ -469,7 +443,7 @@ ul#userinfo_stats {
 
 ul#userinfo_username {
 	z-index: 5;
-	padding-left: 510px;
+	padding-left: 290px;
 	width: 200px;
 }
 
@@ -539,7 +513,7 @@ ul#userinfo_username {
 /* CONTENT */
 #content {
 	padding: 20px 20px 20px 20px;
-	margin: 18px 0 0 0;
+	margin: 38px 0 0 0;
 	background-color: white;
 	color: #575757;
 	-moz-border-radius: 11px;
@@ -547,23 +521,18 @@ ul#userinfo_username {
 	border-radius: 11px;
 	z-index: 2;
 	position: relative;
-/*	border: 1px solid #b5b5b5; */
+	border: 1px solid #b5b5b5;
 	-moz-background-clip: padding-box;
 	background-clip: padding-box;
 	-webkit-background-clip: border-box;
--webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
-box-shadow: 2px 2px 12px 7px #0F0F0F;
-	
 }
 
 #content .header h2,
 #content > .thin > h2:first-child,
 #content > .thin > .header:first-of-type > h3:first-of-type {
-	background-color: #fffdf1;
-
-	/*background-color: #f0f0f0;  */
+	background-color: #f0f0f0;
 	margin: 20px -20px -1px -20px !important;
-	padding: 10px;
+	padding: 20px;
 	-moz-border-radius-topleft: 11px;
 	-webkit-border-radius-topleft: 11px;
 	border-top-left-radius: 11px;
@@ -1026,11 +995,11 @@ strong.quoteheader {
 }
 
 .torrent_table tr.group:not(.discog) {
-	background-color: #fffbe4;
+	background-color: #f5f5f5;
 }
 
 .torrent_table tr.group:not(.discog):hover {
-	background-color: #d3e9ff !important;
+	background-color: #eeeeee !important;
 }
 
 .torrent_table tr.group.discog td:nth-of-type(1) {
@@ -1167,9 +1136,9 @@ tr.torrent .bookmark > a:after {
 .main_column .box .head,
 .box2 .head,
 #blog .box .head {
-	background-color: #ececec;
+	background-color: #f0f0f0;
 	padding: 10px !important;
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid #c6c6c6;
 	-moz-border-radius-topleft: 4px;
 	-webkit-border-radius-topleft: 4px;
 	border-top-left-radius: 4px;
@@ -1188,7 +1157,7 @@ tr.torrent .bookmark > a:after {
 #blog .box,
 .box2 {
 	background-color: #f5f5f5;
-	border: 1px solid #f5f5f5;
+	border: 1px solid #dcdcdc;
 	margin: 0 0 20px 0;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -1274,15 +1243,16 @@ tr.torrent .bookmark > a:after {
 .sidebar .box .body {
 	/*ADD TAG ON ALBUM PAGE */
 	padding: 10px;
+	overflow-wrap: break-word;
 }
 
 .main_column .group {
-	background: #fffcea url('images/discogbglightshadow.png') top left repeat-x;
+	background: #c2c2c2 url('images/discogbglightshadow.png') top left repeat-x;
 }
 
 .main_column .group td {
 	color: #878787;
-/*	background: transparent url('images/discogbglight.png') top right repeat-y;  */
+	background: transparent url('images/discogbglight.png') top right repeat-y;
 	border: 0 !important;
 }
 
@@ -1291,7 +1261,7 @@ tr.torrent .bookmark > a:after {
 }
 
 .main_column .group td a:hover {
-	color: #b10000;
+	color: white;
 }
 
 .main_column .group .center {
@@ -1423,7 +1393,6 @@ tr.torrent .bookmark > a:after {
 
 .r50 {
 	color: #418B00;
-	font-weight: bold;
 }
 
 .r99 {
@@ -2173,3 +2142,128 @@ TODO: Make these rules apply globally and add exceptions where needed
 #reportsv2 .manage_form img {
 	max-width: 600px;
 }
+
+.graphs .shape-1 { background-color: #F15854; }
+.graphs .shape-2 { background-color: #FAA43A; }
+.graphs .shape-3 { background-color: #5DA5DA; }
+.graphs .shape-4 { background-color: #60BD68; }
+.graphs .shape-5 { background-color: #4D4D4D; }
+.graphs .shape-6 { background-color: #FFB4A3; }
+.graphs .shape-7 { background-color: #FFD9A8; }
+.graphs .shape-8 { background-color: #ADD6FF; }
+.graphs .shape-9 { background-color: #97D87D; }
+.graphs .shape-10 { background-color: #E1E278; }
+.graphs .shape-11 { background-color: #CD89E5; }
+.graphs .shape-12 { background-color: #FF84CE; }
+.graphs .shape-13 { background-color: #7072FF; }
+.graphs .shape-14 { background-color: #71E2B9; }
+.graphs .shape-15 { background-color: #46A9DD; }
+.graphs .shape-16 { background-color: #BA915B; }
+.graphs .shape-17 { background-color: #98D831; }
+.graphs .shape-18 { background-color: #B7493A; }
+.graphs .shape-19 { background-color: #DD6899; }
+.graphs .shape-20 { background-color: #4DC6AA; }
+.graphs .shape-21 { background-color: #C4CE56; }
+.graphs .shape-22 { background-color: #6595D3; }
+.graphs .shape-23 { background-color: #D6B93B; }
+.graphs .shape-24 { background-color: #5ADD5F; }
+
+.graphs .chart-color-1 { stroke: #F15854; transition: all .2s linear; }
+.graphs .chart-color-2 { stroke: #FAA43A; transition: all .2s linear; }
+.graphs .chart-color-3 { stroke: #5DA5DA; transition: all .2s linear; }
+.graphs .chart-color-4 { stroke: #60BD68; transition: all .2s linear; }
+.graphs .chart-color-5 { stroke: #4D4D4D; transition: all .2s linear; }
+.graphs .chart-color-6 { stroke: #FFB4A3; transition: all .2s linear; }
+.graphs .chart-color-7 { stroke: #FFD9A8; transition: all .2s linear; }
+.graphs .chart-color-8 { stroke: #ADD6FF; transition: all .2s linear; }
+.graphs .chart-color-9 { stroke: #97D87D; transition: all .2s linear; }
+.graphs .chart-color-10 { stroke: #E1E278; transition: all .2s linear; }
+.graphs .chart-color-11 { stroke: #CD89E5; transition: all .2s linear; }
+.graphs .chart-color-12 { stroke: #FF84CE; transition: all .2s linear; }
+.graphs .chart-color-13 { stroke: #7072FF; transition: all .2s linear; }
+.graphs .chart-color-14 { stroke: #71E2B9; transition: all .2s linear; }
+.graphs .chart-color-15 { stroke: #46A9DD; transition: all .2s linear; }
+.graphs .chart-color-16 { stroke: #BA915B; transition: all .2s linear; }
+.graphs .chart-color-17 { stroke: #98D831; transition: all .2s linear; }
+.graphs .chart-color-18 { stroke: #B7493A; transition: all .2s linear; }
+.graphs .chart-color-19 { stroke: #DD6899; transition: all .2s linear; }
+.graphs .chart-color-20 { stroke: #4DC6AA; transition: all .2s linear; }
+.graphs .chart-color-21 { stroke: #C4CE56; transition: all .2s linear; }
+.graphs .chart-color-22 { stroke: #6595D3; transition: all .2s linear; }
+.graphs .chart-color-23 { stroke: #D6B93B; transition: all .2s linear; }
+.graphs .chart-color-24 { stroke: #5ADD5F; transition: all .2s linear; }
+
+.graphs .chart-color-1:hover { stroke: #D22B27; }
+.graphs .chart-color-2:hover { stroke: #D07F1A; }
+.graphs .chart-color-3:hover { stroke: #1E70AC; }
+.graphs .chart-color-4:hover { stroke: #26B132; }
+.graphs .chart-color-5:hover { stroke: #383838; }
+.graphs .chart-color-6:hover { stroke: #FF927A; }
+.graphs .chart-color-7:hover { stroke: #E89D3C; }
+.graphs .chart-color-8:hover { stroke: #88B9EA; }
+.graphs .chart-color-9:hover { stroke: #5DC16A; }
+.graphs .chart-color-10:hover { stroke: #A8B218; }
+.graphs .chart-color-11:hover { stroke: #A752C4; }
+.graphs .chart-color-12:hover { stroke: #C64B95; }
+.graphs .chart-color-13:hover { stroke: #4E51DB; }
+.graphs .chart-color-14:hover { stroke: #40C494; }
+.graphs .chart-color-15:hover { stroke: #2174A0; }
+.graphs .chart-color-16:hover { stroke: #8C6635; }
+.graphs .chart-color-17:hover { stroke: #6CA315; }
+.graphs .chart-color-18:hover { stroke: #7C271C; }
+.graphs .chart-color-19:hover { stroke: #B2406F; }
+.graphs .chart-color-20:hover { stroke: #329981; }
+.graphs .chart-color-21:hover { stroke: #9BAA38; }
+.graphs .chart-color-22:hover { stroke: #436FA8; }
+.graphs .chart-color-23:hover { stroke: #9B8520; }
+.graphs .chart-color-24:hover { stroke: #268E2A; }
+
+.graphs .bar-color-1 { fill: #F15854; transition: all .2s linear; }
+.graphs .bar-color-2 { fill: #FAA43A; transition: all .2s linear; }
+.graphs .bar-color-3 { fill: #5DA5DA; transition: all .2s linear; }
+.graphs .bar-color-4 { fill: #60BD68; transition: all .2s linear; }
+.graphs .bar-color-5 { fill: #4D4D4D; transition: all .2s linear; }
+.graphs .bar-color-6 { fill: #FFB4A3; transition: all .2s linear; }
+.graphs .bar-color-7 { fill: #FFD9A8; transition: all .2s linear; }
+.graphs .bar-color-8 { fill: #ADD6FF; transition: all .2s linear; }
+.graphs .bar-color-9 { fill: #97D87D; transition: all .2s linear; }
+.graphs .bar-color-10 { fill: #E1E278; transition: all .2s linear; }
+.graphs .bar-color-11 { fill: #CD89E5; transition: all .2s linear; }
+.graphs .bar-color-12 { fill: #FF84CE; transition: all .2s linear; }
+.graphs .bar-color-13 { fill: #7072FF; transition: all .2s linear; }
+.graphs .bar-color-14 { fill: #71E2B9; transition: all .2s linear; }
+.graphs .bar-color-15 { fill: #46A9DD; transition: all .2s linear; }
+.graphs .bar-color-16 { fill: #BA915B; transition: all .2s linear; }
+.graphs .bar-color-17 { fill: #98D831; transition: all .2s linear; }
+.graphs .bar-color-18 { fill: #B7493A; transition: all .2s linear; }
+.graphs .bar-color-19 { fill: #DD6899; transition: all .2s linear; }
+.graphs .bar-color-20 { fill: #4DC6AA; transition: all .2s linear; }
+.graphs .bar-color-21 { fill: #C4CE56; transition: all .2s linear; }
+.graphs .bar-color-22 { fill: #6595D3; transition: all .2s linear; }
+.graphs .bar-color-23 { fill: #D6B93B; transition: all .2s linear; }
+.graphs .bar-color-24 { fill: #5ADD5F; transition: all .2s linear; }
+
+.graphs .bar-color-1:hover { fill: #D22B27; }
+.graphs .bar-color-2:hover { fill: #D07F1A; }
+.graphs .bar-color-3:hover { fill: #1E70AC; }
+.graphs .bar-color-4:hover { fill: #26B132; }
+.graphs .bar-color-5:hover { fill: #383838; }
+.graphs .bar-color-6:hover { fill: #FF927A; }
+.graphs .bar-color-7:hover { fill: #E89D3C; }
+.graphs .bar-color-8:hover { fill: #88B9EA; }
+.graphs .bar-color-9:hover { fill: #5DC16A; }
+.graphs .bar-color-10:hover { fill: #A8B218; }
+.graphs .bar-color-11:hover { fill: #A752C4; }
+.graphs .bar-color-12:hover { fill: #C64B95; }
+.graphs .bar-color-13:hover { fill: #4E51DB; }
+.graphs .bar-color-14:hover { fill: #40C494; }
+.graphs .bar-color-15:hover { fill: #2174A0; }
+.graphs .bar-color-16:hover { fill: #8C6635; }
+.graphs .bar-color-17:hover { fill: #6CA315; }
+.graphs .bar-color-18:hover { fill: #7C271C; }
+.graphs .bar-color-19:hover { fill: #B2406F; }
+.graphs .bar-color-20:hover { fill: #329981; }
+.graphs .bar-color-21:hover { fill: #9BAA38; }
+.graphs .bar-color-22:hover { fill: #436FA8; }
+.graphs .bar-color-23:hover { fill: #9B8520; }
+.graphs .bar-color-24:hover { fill: #268E2A; }
