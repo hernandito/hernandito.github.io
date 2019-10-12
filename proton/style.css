@@ -89,19 +89,20 @@ a img {
 }
 
 #header {
-	padding: 0;
+/*	padding: 0;
 	margin: 8px 0 0 0;
-/* NEW HR STUFF */	
+ NEW HR STUFF */	
 padding-left: 20px;
 padding-right: 20px;
-background-color: #e6e6e6;
-margin-top: -5px;
+background-color: #f5f5f5;
+margin-top: 20px;
 padding-top: 10px;
 height: 122px;
 -moz-border-radius: 11px;
 -webkit-border-radius: 11px;
 border-radius: 11px;	
-	
+-webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
+box-shadow: 2px 2px 12px 7px #0F0F0F;	
 	
 }
 
@@ -211,6 +212,12 @@ textarea:focus,
 
 #searchbars input:focus {
 	background: transparent url('images/searchbox.png') 0 -23px no-repeat;
+	border: 0 !important;
+	height: 19px !important;
+	width: 121px !important;
+	margin: 0 !important;
+	padding: 3px 5px 0 19px !important;
+	outline: none;
 }
 
 input[type="submit"],
@@ -528,7 +535,7 @@ ul#userinfo_username {
 /* CONTENT */
 #content {
 	padding: 20px 20px 20px 20px;
-	margin: 38px 0 0 0;
+	margin: 18px 0 0 0;
 	background-color: white;
 	color: #575757;
 	-moz-border-radius: 11px;
