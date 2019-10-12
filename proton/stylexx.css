@@ -1,7 +1,7 @@
 /* GLOBAL */
 
 body {
-	background: #c4c4c4 url('images/what_bg.jpg') top left repeat-x;
+	background: #3f3f3f url('images/darkback2.png') top left repeat;
 	font-family: Arial, sans-serif;
 	font-size: 0.7em;
 	margin-bottom: 0;
@@ -61,7 +61,7 @@ a img {
 }
 
 #footer p:first-child {
-	background: url('https://ptpimg.me/148ey5.png') 15px 0 no-repeat;
+	background: url('images/what_logo.png') 15px 0 no-repeat;
 	padding: 0 0 0 130px;
 	border: 0;
 	width: 180px;
@@ -89,8 +89,20 @@ a img {
 }
 
 #header {
-	padding: 0;
-	margin: 20px 0 0 0;
+/*	padding: 0;
+	margin: 8px 0 0 0;
+ NEW HR STUFF */	
+padding-left: 20px;
+padding-right: 20px;
+background-color: #f5f5f5;
+margin-top: 20px;
+padding-top: 10px;
+height: 122px;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+border-radius: 11px;	
+-webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
+box-shadow: 2px 2px 12px 7px #0F0F0F;	
 }
 
 /* GENERAL */
