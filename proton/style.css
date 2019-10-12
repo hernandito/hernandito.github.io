@@ -1,4 +1,4 @@
-/* GLOBAL Link: https://hernandito.github.io/proton/style.css */
+/* GLOBAL Link: */
 
 body {
 	background: #3f3f3f url('images/darkback2.png') top left repeat;
@@ -126,7 +126,7 @@ h4 {
 }
 
 .rowa td {
-	background-color: #f5f5f5;
+	background-color: #fffcef;
 }
 
 .rowb td {
@@ -1281,7 +1281,7 @@ tr.torrent .bookmark > a:after {
 
 .main_column .group td {
 	color: #878787;
-	background: transparent url('images/discogbglight.png') top right repeat-y;
+/*	background: transparent url('images/discogbglight.png') top right repeat-y;  */
 	border: 0 !important;
 }
 
