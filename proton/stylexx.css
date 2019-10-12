@@ -450,13 +450,14 @@ ul#userinfo_username,
 ul#userinfo_major {
 	z-index: 2;
 	padding-left: 510px;
+	padding-top: 60px;				   
 	width: 300px;
 }
 
 ul#userinfo_minor {
 	z-index: 4;
-	padding-top: 17px;
-	padding-left: 290px;
+	padding-top: 0px;
+	padding-left: 300px;
 }
 
 ul#userinfo_stats {
@@ -467,7 +468,7 @@ ul#userinfo_stats {
 
 ul#userinfo_username {
 	z-index: 5;
-	padding-left: 290px;
+	padding-left: 510px;
 	width: 200px;
 }
 
