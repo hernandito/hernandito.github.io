@@ -1,7 +1,8 @@
-/* GLOBAL Link: */
+@@ -0,0 +1,2150 @@
+/* GLOBAL */
 
 body {
-	background: #3f3f3f url('images/darkback2.png') top left repeat;
+	background: #3f3f3f url('images/ordarkback.png') top left repeat-x;
 	font-family: Arial, sans-serif;
 	font-size: 0.7em;
 	margin-bottom: 0;
@@ -89,21 +90,8 @@ a img {
 }
 
 #header {
-/*	padding: 0;
-	margin: 8px 0 0 0;
- NEW HR STUFF */	
-padding-left: 20px;
-padding-right: 20px;
-background-color: #f5f5f5;
-margin-top: 20px;
-padding-top: 10px;
-height: 122px;
--moz-border-radius: 11px;
--webkit-border-radius: 11px;
-border-radius: 11px;	
--webkit-box-shadow: 2px 2px 12px 7px #0F0F0F;
-box-shadow: 2px 2px 12px 7px #0F0F0F;	
-	
+	padding: 0;
+	margin: 20px 0 0 0;
 }
 
 /* GENERAL */
@@ -126,7 +114,7 @@ h4 {
 }
 
 .rowa td {
-	background-color: #fffcef;
+	background-color: #f5f5f5;
 }
 
 .rowb td {
@@ -201,23 +189,17 @@ textarea:focus,
 }
 
 #searchbars input {
-	background: transparent url('images/searchbox2.png') top left no-repeat;
+	background: transparent url('images/searchbox.png') top left no-repeat;
 	border: 0 !important;
 	height: 19px !important;
-	width: 121px !important;
+	width: 131px !important;
 	margin: 0 !important;
 	padding: 3px 5px 0 19px !important;
 	outline: none;
 }
 
 #searchbars input:focus {
-	background: transparent url('images/searchbox2.png') 0 -23px no-repeat;
-	border: 0 !important;
-	height: 19px !important;
-	width: 121px !important;
-	margin: 0 !important;
-	padding: 3px 5px 0 19px !important;
-	outline: none;
+	background: transparent url('images/searchbox.png') 0 -23px no-repeat;
 }
 
 input[type="submit"],
@@ -309,9 +291,9 @@ ul#userinfo_username li a:hover {
 }
 
 ul#userinfo_username li a.username {
-	color: #333;
-	font-size: 1.1em;
-	max-width: 74px;
+	color: #249300;
+	font-size: 1.3em;
+	max-width: 79px;
 	text-overflow: ellipsis;
 	background-color: #EEEEAE;
 }
@@ -333,9 +315,6 @@ ul#userinfo_major li a:hover {
 ul#userinfo_stats li {
 	font-weight: normal;
 	color: #575757;
-	
-	border-bottom: 1px solid #ccc;
-padding-bottom: 6px;
 }
 
 ul#userinfo_stats li a {
@@ -427,7 +406,7 @@ ul#userinfo_minor a:hover {
 #logo a {
 	display: block;
 	height: 121px;
-	background: transparent url('images/redlogo.png') no-repeat top left;
+	background: transparent url('images/orlogo.png') no-repeat top left;
 	margin-left: 2px;
 	margin-top: 0px;
 }
@@ -450,14 +429,13 @@ ul#userinfo_username,
 ul#userinfo_major {
 	z-index: 2;
 	padding-left: 510px;
-	padding-top: 60px;
 	width: 300px;
 }
 
 ul#userinfo_minor {
 	z-index: 4;
-	padding-top: 0px;
-	padding-left: 300px;
+	padding-top: 17px;
+	padding-left: 290px;
 }
 
 ul#userinfo_stats {
@@ -468,7 +446,7 @@ ul#userinfo_stats {
 
 ul#userinfo_username {
 	z-index: 5;
-	padding-left: 510px;
+	padding-left: 290px;
 	width: 200px;
 }
 
@@ -538,7 +516,7 @@ ul#userinfo_username {
 /* CONTENT */
 #content {
 	padding: 20px 20px 20px 20px;
-	margin: 18px 0 0 0;
+	margin: 38px 0 0 0;
 	background-color: white;
 	color: #575757;
 	-moz-border-radius: 11px;
@@ -1276,12 +1254,12 @@ tr.torrent .bookmark > a:after {
 }
 
 .main_column .group {
-	background: #fffcea url('images/discogbglightshadow.png') top left repeat-x;
+	background: #fffdf3 url('images/discogbglightshadow.png') top left repeat-x;
 }
 
 .main_column .group td {
 	color: #878787;
-/*	background: transparent url('images/discogbglight.png') top right repeat-y;  */
+	background: transparent url('images/discogbglight.png') top right repeat-y;
 	border: 0 !important;
 }
 
@@ -1290,7 +1268,7 @@ tr.torrent .bookmark > a:after {
 }
 
 .main_column .group td a:hover {
-	color: #b10000;
+	color: white;
 }
 
 .main_column .group .center {
@@ -1422,7 +1400,6 @@ tr.torrent .bookmark > a:after {
 
 .r50 {
 	color: #418B00;
-	font-weight: bold;
 }
 
 .r99 {
