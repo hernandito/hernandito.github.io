@@ -426,10 +426,10 @@ ul#userinfo_minor a:hover {
 
 #logo a {
 	display: block;
-	height: 120px;
-	background: transparent url('/static/styles/proton/images/red-proton.png') no-repeat top left;
-	margin-left: -28px;
-	margin-top: -18px;
+	height: 121px;
+	background: transparent url('images/redlogo.png') no-repeat top left;
+	margin-left: 2px;
+	margin-top: 0px;
 }
 
 #menu ul,
@@ -443,7 +443,7 @@ ul#userinfo_username,
 
 #menu ul {
 	z-index: 6;
-	padding-left: 120px;
+	padding-left: 140px;
 	padding-bottom: 0;
 }
 
