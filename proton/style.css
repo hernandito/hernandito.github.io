@@ -91,6 +91,16 @@ a img {
 #header {
 	padding: 0;
 	margin: 8px 0 0 0;
+/* NEW HR STUFF */	
+padding-left: 20px;
+padding-right: 20px;
+background-color: bisque;
+margin-top: -5px;
+padding-top: 10px;
+height: 142px;
+	
+	
+	
 }
 
 /* GENERAL */
@@ -188,10 +198,10 @@ textarea:focus,
 }
 
 #searchbars input {
-	background: transparent url('images/searchbox.png') top left no-repeat;
+	background: transparent url('images/searchbox2.png') top left no-repeat;
 	border: 0 !important;
 	height: 19px !important;
-	width: 131px !important;
+	width: 100px !important;
 	margin: 0 !important;
 	padding: 3px 5px 0 19px !important;
 	outline: none;
