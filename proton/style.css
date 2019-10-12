@@ -1,7 +1,7 @@
 /* GLOBAL */
 
 body {
-	background: #3f3f3f url('images/darkback2.png') top left repeat-x;
+	background: #3f3f3f url('images/darkback2.png') top left ;
 	font-family: Arial, sans-serif;
 	font-size: 0.7em;
 	margin-bottom: 0;
@@ -211,7 +211,7 @@ textarea:focus,
 }
 
 #searchbars input:focus {
-	background: transparent url('images/searchbox.png') 0 -23px no-repeat;
+	background: transparent url('images/searchbox2.png') 0 -23px no-repeat;
 	border: 0 !important;
 	height: 19px !important;
 	width: 121px !important;
