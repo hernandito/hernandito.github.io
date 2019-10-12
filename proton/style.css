@@ -427,7 +427,11 @@ ul#userinfo_minor a:hover {
 #logo a {
 	display: block;
 	height: 121px;
+<<<<<<< HEAD
 	background: transparent url('images/redlogo.png') no-repeat top left;
+=======
+	background: transparent url('images/red-logo.png') no-repeat top left;
+>>>>>>> parent of c29ffd2... q
 	margin-left: 2px;
 	margin-top: 0px;
 }
