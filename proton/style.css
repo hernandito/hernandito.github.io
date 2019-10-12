@@ -455,7 +455,7 @@ ul#userinfo_major {
 }
 
 ul#userinfo_minor {
-	z-index: 11;
+	z-index: 5;
 	padding-top: 0px;
 	padding-left: 300px;
 }
