@@ -309,9 +309,14 @@ ul#userinfo_username li a:hover {
 }
 
 ul#userinfo_username li a.username {
+<<<<<<< HEAD
 	color: #333;
 	font-size: 1.1em;
 	max-width: 74px;
+=======
+	color: #2b2b2b;
+	max-width: 70px;
+>>>>>>> parent of 2ef8c80... zs
 	text-overflow: ellipsis;
 	background-color: #EEEEAE;
 }
