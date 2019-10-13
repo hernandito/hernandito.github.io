@@ -195,7 +195,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 138px;
 	height: 37px;
 	background: url('images/woodlogo2.png') no-repeat top left;
-	margin: 23px 0 0 11px;
+	margin: 13px 0 0 11px;
 	position: absolute;
 	z-index: 2;
 }
@@ -216,7 +216,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	height: 38px;
 	position: absolute;
 	padding: 0 0 0 0;
-	margin: 30px 0 0 340px;
+	margin: 14px 0 0 340px;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 11pt;
 }
@@ -245,7 +245,8 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #menu ul li a:hover {
-	border-bottom: 3px solid #EFB34A;
+	border-bottom: 3px solid #FBC250;
+		border-top: 1px solid #FBC250;
 	text-decoration: none;
 }
 
@@ -291,6 +292,15 @@ ul.thin li { margin:0px 0px; padding:0px; }
 */
 
 
+
+#username {
+
+	color: green;
+
+	font-size: 12pt;
+}
+
+
 #userinfo {
 	position: absolute;
 	color: #FFF;
@@ -308,7 +318,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	margin: 94px 0 0 11px;
 }
 #userinfo_stats {
-	margin: 74px 0 0 11px;
+	margin: 54px 0 0 11px;
 	position: absolute;
 }
 #userinfo_stats a {
@@ -344,7 +354,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo a, #alerts a {
-	color: #fff;
+	color: #fff9c4;
 }
 
 #userinfo b a {
