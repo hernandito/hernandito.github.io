@@ -354,11 +354,11 @@ text-decoration: none !important;
 	color: #FFF;
 }
 #userinfo_minor {
-	position: absolute;
-	width: 295px;
-	margin: 70px 0 0 640px;
-	text-align: right;
-	float: right;
+position: absolute;
+width: 4595px;
+margin: 110px 0 0 332px;
+text-align: right;
+float: right;
 }
 #userinfo_minor li a {
 	color: #FFF;
@@ -377,7 +377,7 @@ text-decoration: none !important;
 	margin: 0 0.1em;
 	line-height: 20px;
 	vertical-align: middle;
-	padding: 0px;
+	padding-right: 2px;
 }
 
 #userinfo a, #alerts a {
