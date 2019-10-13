@@ -300,6 +300,12 @@ font-weight: bold;
 text-decoration: none;
 }
 
+.username a hover {
+text-decoration: none;
+}
+
+
+
 .r50 {
 font-size: 9pt;
 color: #B9FF77 !important;
@@ -309,6 +315,8 @@ font-weight: bold;
 text-decoration: none;
 }
 
+
+/*
 .brackets {
 font-size: 11pt !important;
 color: #B9FF77 !important;
@@ -316,7 +324,7 @@ color: #B9FF77 !important;
 font-weight: bold !important;
 text-decoration: none !important;
 }
-
+*/
 
 #userinfo {
 	position: absolute;
