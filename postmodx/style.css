@@ -292,10 +292,21 @@ ul.thin li { margin:0px 0px; padding:0px; }
 */
 
 .username {
-		color: red;
+font-size: 9pt;
+color: #000 !important;
+background-color: #e3c873;
+padding: 3px;
+font-weight: bold;
+text-decoration: none;
+}
 
-	font-size: 12pt;
-	
+.stat {
+font-size: 9pt;
+color: #B9FF77 !important;
+
+padding: 3px;
+font-weight: bold;
+text-decoration: none;
 }
 
 
@@ -352,7 +363,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #userinfo a, #alerts a {
-	color: #fff9c4;
+	color: #ffdb67;
 }
 
 #userinfo b a {
@@ -761,15 +772,15 @@ ul.poll li.graph {
 .torrent_table tr.group {
 	background-color:#FFFAE3;
 	border-bottom: 1px solid #91d0e1;
-		border-bottom: 1px solid #91d0e1;
-	
+	border-top: 1px solid #91d0e1;
+	-webkit-box-shadow: 0 2px 8px 0 #949494;
+box-shadow: 0 2px 8px 0 #949494;	
 }
 .torrent_table tr.group_torrent {
 	background-color:#fbfaf8;
 	border-bottom:1px solid #efefef;
 	
-	-webkit-box-shadow: 0 2px 8px 0 #949494;
-box-shadow: 0 2px 8px 0 #949494;
+
 	
 	
 }
