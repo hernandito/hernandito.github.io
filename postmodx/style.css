@@ -151,7 +151,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	/*background: url('images/bg_header.png') 11px 65px no-repeat;*/
 	height: 173px;
 	padding: 0 0 0 0;
-	background-color: #595959;
+	background-color: #575757;
 }
 
 #content {
@@ -255,7 +255,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #index #nav_index a, #torrents #nav_torrents a, #collage #nav_collages a, #requests #nav_requests a, #forums #nav_forums a, #chat #nav_irc a, #top10 #nav_top10 a, #rules #nav_rules a, #wiki #nav_wiki a, #staff #nav_staff a {
-	border-bottom: 4px solid #111;
+	border-bottom: 4px solid #d7484c;
 }
 
 /*
@@ -291,13 +291,11 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #staff #nav_staff a { background-position: -675px -69px; }
 */
 
-
-
-username {
-
-	color: green;
+.username {
+		color: red;
 
 	font-size: 12pt;
+	
 }
 
 
@@ -761,11 +759,19 @@ ul.poll li.graph {
 }
 
 .torrent_table tr.group {
-	background-color:#EFEFEF;
+	background-color:#FFFAE3;
+	border-bottom: 1px solid #91d0e1;
+		border-bottom: 1px solid #91d0e1;
+	
 }
 .torrent_table tr.group_torrent {
 	background-color:#fbfaf8;
 	border-bottom:1px solid #efefef;
+	
+	-webkit-box-shadow: 0 2px 8px 0 #949494;
+box-shadow: 0 2px 8px 0 #949494;
+	
+	
 }
 
 tr.group_torrent td,
