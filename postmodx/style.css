@@ -25,11 +25,11 @@ html {
 }
 
 body {
-	background: #000 url('images/fancy-cushion.png') fixed;
+	background: #000 url('images/fancy-cushion.png') repeat;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 9pt;
 	color: #EEE;
-	background-size:cover;
+	
 }
 
 .forum_post pre {
