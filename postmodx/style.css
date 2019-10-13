@@ -300,7 +300,7 @@ font-weight: bold;
 text-decoration: none;
 }
 
-.stat {
+.r50 {
 font-size: 9pt;
 color: #B9FF77 !important;
 
@@ -319,12 +319,12 @@ text-decoration: none;
 #userinfo_major {
 	position: absolute;
 	width: 609px;
-	margin: 110px 0 0 326px;
-	text-align: right;
+	margin: 110px 0 0 16px;
+	text-align: left;
 }
 #userinfo_username {
 	position: absolute;
-	margin: 94px 0 0 16px;
+	margin: 88px 0 0 16px; /* was 94 */
 }
 #userinfo_stats {
 	margin: 54px 0 0 16px;
