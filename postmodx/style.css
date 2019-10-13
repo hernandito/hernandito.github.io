@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	background: #000 url('images/symphony.png') repeat;
+	background: #000 url('images/symphony.png') fixed repeat;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 9pt;
 	color: #EEE;
@@ -309,6 +309,14 @@ font-weight: bold;
 text-decoration: none;
 }
 
+.brackets {
+font-size: 11pt !important;
+color: #B9FF77 !important;
+
+font-weight: bold !important;
+text-decoration: none !important;
+}
+
 
 #userinfo {
 	position: absolute;
@@ -380,7 +388,7 @@ text-decoration: none;
 
 #searchbars input {
 	width: 130px;
-	border: 1px solid #FFF;
+	border: 1px solid #B3B3B3;
 	padding: 0 2px 0 10px;
 	font-family: Helvetica, Arial, sans-serif;
 	height: 22px;
