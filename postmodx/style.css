@@ -22,7 +22,7 @@ html {
 }
 
 body {
-	background: #000 url('images/wood.jpg') no-repeat fixed;
+	background: #000 url('images/woodbw.jpg') no-repeat fixed;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 9pt;
 	color: #EEE;
@@ -148,6 +148,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	/*background: url('images/bg_header.png') 11px 65px no-repeat;*/
 	height: 173px;
 	padding: 0 0 0 0;
+	background-color: #595959;
 }
 
 #content {
@@ -190,7 +191,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #logo {
 	width: 138px;
 	height: 37px;
-	background: url('images/woodlogo.png') no-repeat top left;
+	background: url('images/woodlogo2.png') no-repeat top left;
 	margin: 23px 0 0 11px;
 	position: absolute;
 	z-index: 2;
