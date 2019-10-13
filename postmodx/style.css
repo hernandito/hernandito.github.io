@@ -355,7 +355,7 @@ text-decoration: none !important;
 }
 #userinfo_minor {
 position: absolute;
-width: 4595px;
+width: 595px;
 margin: 110px 0 0 332px;
 text-align: right;
 float: right;
@@ -377,7 +377,7 @@ float: right;
 	margin: 0 0.1em;
 	line-height: 20px;
 	vertical-align: middle;
-	padding-right: 2px;
+	padding-right: 8px;
 }
 
 #userinfo a, #alerts a {
