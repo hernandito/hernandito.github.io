@@ -157,9 +157,9 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #content {
 	width: 906px;
 	margin: 0 auto 0 auto;
-	border: 1px solid #222;
+/*	border: 1px solid #222;  */
 	color: #DFDFDF;
-	background: transparent url('images/content.png');
+	background: transparent url('images/content2.png');
 	padding: 40px 22px;
 	overflow: hidden;
 }
