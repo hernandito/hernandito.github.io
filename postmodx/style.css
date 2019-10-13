@@ -63,7 +63,8 @@ table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover {
 }
 
 #header a:hover, .linkbox a:hover {
-	text-decoration: underline;
+color: #99daff !important;
+	text-decoration: none;
 }
 
 a[onclick]:focus {
@@ -302,6 +303,7 @@ text-decoration: none;
 
 .username a hover {
 text-decoration: none;
+color: black !important;
 }
 
 
