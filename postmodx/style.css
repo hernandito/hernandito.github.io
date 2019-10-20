@@ -60,7 +60,7 @@ table tbody a, .main_column a, .sidebar a, .box a {
 }
 
 table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover {
-	color: #0C9CCF;
+	color: #AF0A0A;
 }
 
 #header a:hover, .linkbox a:hover {
@@ -157,12 +157,12 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #content {
-	width: 906px;
+	width: 904px;
 	margin: 0 auto 0 auto;
-/*	border: 1px solid #222;  */
+	border: 1px solid #cecece; 
 	color: #DFDFDF;
 	background: transparent url('images/content2.png');
-	padding: 40px 22px;
+	padding: 10px 22px;
 	overflow: hidden;
 }
 
