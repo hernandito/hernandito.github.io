@@ -47,7 +47,8 @@ table tbody, .main_column, .sidebar, .box, .thin, .pad, #threadpoll, #poll {
 a {
 	text-decoration: none;
 	border: none;
-	color: #3980BB;
+/*	color: #3980BB; */
+	color: #4373CA;
 }
 
 a img {
@@ -343,10 +344,12 @@ text-decoration: none !important;
 #userinfo_username {
 	position: absolute;
 	margin: 88px 0 0 16px; /* was 94 */
+	
 }
 #userinfo_stats {
-	margin: 54px 0 0 16px;
+	margin: 48px 0 0 16px;
 	position: absolute;
+	font-size: 10px;
 }
 #userinfo_stats a {
 }
