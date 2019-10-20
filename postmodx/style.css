@@ -535,8 +535,17 @@ input.hidden {
 	text-align:center;
 	padding: 5px;
 	color: #FCFCFC;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
+	background-color: #fffae3;
 }
+
+.linkbox a:hover{
+
+	color: red;
+
+}
+
+
 
 .center {
 	text-align: center;
