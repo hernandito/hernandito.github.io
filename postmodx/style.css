@@ -536,12 +536,12 @@ input.hidden {
 	padding: 5px;
 	color: #FCFCFC;
 	padding-bottom: 5px;
-	background-color: #fffae3;
+	background-color: #fff;
 }
 
 .linkbox a:hover{
 
-	color: red;
+	color: #AF0A0A !important;
 
 }
 
@@ -582,6 +582,7 @@ p.min_padding {
 	margin-bottom: 10px;
 	padding-top: 4px;
 	padding-bottom: 4px;
+	border: 1px solid #d0d0d0;
 }
 
 .box2 {
@@ -689,6 +690,10 @@ td.colhead, .colhead td, .colhead th {
 	vertical-align:middle;
 	text-align:center;
 	font-size: 12pt;
+}
+
+.colhead .sign, .colhead_dark .sign img {
+width: 70%;
 }
 
 td.label {
