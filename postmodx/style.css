@@ -344,12 +344,12 @@ text-decoration: none !important;
 }
 #userinfo_username {
 	position: absolute;
-	margin: 80px 0 0 16px; /* was 94 */
+	margin: 67px 0 0 16px; /* was 94 */
 	background-color: #000;
 	
 }
 #userinfo_stats {
-	margin: 48px 0 0 16px;
+	margin: 84px 0 0 16px;
 	position: absolute;
 	font-size: 10px;
 }
@@ -360,8 +360,8 @@ text-decoration: none !important;
 }
 #userinfo_minor {
 position: absolute;
-width: 595px;
-margin: 110px 0 0 332px;
+width: 695px;
+margin: 110px 0 0 232px;
 text-align: right;
 float: right;
 }
@@ -382,7 +382,7 @@ float: right;
 	margin: 0 0.1em;
 	line-height: 20px;
 	vertical-align: middle;
-	padding-right: 4px;
+	padding-right: 6px;
 }
 
 #userinfo a, #alerts a {
