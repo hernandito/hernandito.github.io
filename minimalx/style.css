@@ -1313,8 +1313,13 @@ strong.quoteheader {
 #discog_table,
 #collage_table {
     margin-top: 1px;
-	background-color: #000;
+
 	
+}
+
+
+#discog {
+	background-color: #000;
 }
 
 .sidebar form br,
