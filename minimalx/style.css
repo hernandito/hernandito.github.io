@@ -28,7 +28,7 @@ a:active {
 
 a:hover {
     color: #FFDB00;
-    text-decoration: underline
+ /*   text-decoration: underline; */
 }
 
 a img {
@@ -626,7 +626,7 @@ table tr td {
 }
 
 #content h2:first-child {
-    border-bottom: 1px solid #ACBFA9;
+    border-bottom: 1px solid #717070;
 }
 
 #content .box h2 {
