@@ -247,7 +247,7 @@ padding-top: 5px;
 #wiki #nav_wiki a,
 #staff #nav_staff a,
 #chat #nav_irc a {
-    background: #5AF;
+    background: #A80000;
 }
 
 
@@ -473,7 +473,7 @@ padding-top: 5px;
 }
 
 #userinfo_stats .stat {
-    color: #5AF
+    color: #F9E953
 }
 
 
@@ -1490,7 +1490,11 @@ strong.quoteheader {
 }
 
 .r50 {
-    color: #418B00
+    color: #418B00;
+	
+	color: #0012FF;
+font-weight: bold;
+font-size: 12px;
 }
 
 .r99 {
