@@ -900,8 +900,8 @@ strong.quoteheader{
 blockquote {
 	margin: 10px;
 	padding: 10px;
-	border: 1px dashed #666;
-	background: #ECECEC;
+border: 1px solid #ccc;
+background: #ECECEC;
 }
 
 
