@@ -1176,8 +1176,9 @@ strong.quoteheader {
     height: 30px
 }
 
-.group {
-    font-weight: bold
+.group .discog {
+    font-weight: bold;
+	background-color: green;
 }
 
 .group td.nobr {
@@ -1318,9 +1319,6 @@ strong.quoteheader {
 }
 
 
-#discog {
-	background-color: #000;
-}
 
 .sidebar form br,
 .sidebar .pad br {
