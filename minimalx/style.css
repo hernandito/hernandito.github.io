@@ -1340,7 +1340,9 @@ strong.quoteheader {
 
 .sidebar ul {
     list-style-type: none;
-    margin: 0
+    margin: 0;
+		font-size: 9px;
+	background-color: #646464;
 }
 
 .sidebar .box li {
@@ -1490,7 +1492,7 @@ strong.quoteheader {
 }
 
 .r50 {
-    color: #418B00;
+    color: #418B00
 	
 	color: #0012FF;
 font-weight: bold;
