@@ -1176,9 +1176,8 @@ strong.quoteheader {
     height: 30px
 }
 
-.group .discog {
-    font-weight: bold;
-	background-color: green;
+.group {
+    font-weight: bold
 }
 
 .group td.nobr {
