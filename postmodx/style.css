@@ -580,8 +580,8 @@ p.min_padding {
 	font-size: 10pt;
 	background-color: #F7F6F2;
 	margin-bottom: 10px;
-	padding-top: 4px;
-	padding-bottom: 4px;
+/*	padding-top: 4px;
+	padding-bottom: 4px; */
 	border: 1px solid #d0d0d0;
 }
 
