@@ -397,7 +397,7 @@ padding-left: 3px;
 }
 
 #userinfo_minor li a:hover {
-
+	color: #FFF !important;
 border-bottom: 3px solid #ffc81a;
 	
 }
