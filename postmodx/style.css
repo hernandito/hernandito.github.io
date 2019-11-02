@@ -379,8 +379,8 @@ border-radius: 4px;
 }
 #userinfo_minor li a:hover {
 	color: #000 !important;
-background-color: #ffe788;
-
+background-color: #e3c873;
+border: 1px solid #000;	
 	
 }
 
