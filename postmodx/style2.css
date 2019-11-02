@@ -656,7 +656,7 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
   padding: 0;
   width: 160px;
   height: 24px;
-  background: url("imagesg/logo-sprite-light.png") no-repeat;
+  background: url("images/logo-sprite-light.png") no-repeat;
   background-size: auto 80%;
 }
 
