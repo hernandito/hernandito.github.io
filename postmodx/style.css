@@ -367,6 +367,14 @@ float: right;
 }
 #userinfo_minor li a {
 	color: #FFF;
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+background-color: beige;
+	
+	
 }
 
 
@@ -642,8 +650,10 @@ table {
 	width: 100%;
 	border-collapse: collapse;
 	border: none;
-	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	
+	-webkit-box-shadow: 0 2px 8px 0 #949494;
+	box-shadow: 0 2px 8px 0 #949494;
+	
 }
 
 tr {
@@ -810,15 +820,17 @@ ul.poll li.graph {
 }
 
 .torrent_table tr.group {
-	background-color:#FFFAE3;
-	border-bottom: 1px solid #91d0e1;
-	border-top: 1px solid #91d0e1;
+	background-color:#F9F2D4;
+	border-bottom: 1px solid #ccc;
+/*
 	-webkit-box-shadow: 0 2px 8px 0 #949494;
 box-shadow: 0 2px 8px 0 #949494;	
+
+*/
 }
 .torrent_table tr.group_torrent {
 	background-color:#fbfaf8;
-	border-bottom:1px solid #efefef;
+	border-bottom:1px solid #c4e3ff;
 	
 
 	
