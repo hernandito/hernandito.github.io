@@ -360,7 +360,7 @@ text-decoration: none !important;
 }
 #userinfo_minor {
 position: absolute;
-width: 695px;
+width: 715px;
 margin: 110px 0 0 232px;
 text-align: right;
 float: right;
@@ -368,15 +368,20 @@ float: right;
 #userinfo_minor li a {
 	color: #FFF;
 	
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 2px;
-	padding-right: 2px;
-background-color: beige;
-	
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+background-color: #484848;
+border: 1px solid #888;	
 	
 }
+#userinfo_minor li a:hover {
+	color: #000;
+background-color: #ffe788;
 
+	
+}
 
 #userinfo img {
 	margin-top: -5px;
