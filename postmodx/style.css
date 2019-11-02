@@ -365,6 +365,8 @@ margin: 110px 0 0 198px;
 text-align: right;
 float: right;
 }
+
+/*
 #userinfo_minor li a {
 	color: #FFF;
 	
@@ -383,6 +385,21 @@ background-color: #e3c873;
 border: 1px solid #000;	
 	
 }
+*/
+#userinfo_minor li a {
+	color: #FFF;
+	
+	padding-top: 2px;
+	padding-bottom: 1px;
+
+}
+
+#userinfo_minor li a:hover {
+	color: #fff !important;
+border-bottom: 3px solid #e3c873;
+	
+}
+
 
 #userinfo img {
 	margin-top: -5px;
