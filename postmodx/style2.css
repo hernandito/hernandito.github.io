@@ -1041,7 +1041,7 @@ background-color: #000;
   left: 0;
   float: left !important;
   overflow: hidden;
-  margin: 62px 0 0 50px;
+  margin: 48px 0 0 50px;
   height: 1.5em !important;
   text-align: left;
  
@@ -1062,7 +1062,7 @@ background-color: #000;
   z-index: 20;
   float: left !important;
   overflow: hidden;
-  margin: 62px 0 0 5px;
+  margin: 49px 0 0 5px;
   height: 1.5em !important;
   text-align: left;
   
@@ -1072,7 +1072,7 @@ background-color: #000;
   opacity: 0.8;
   left: 0;
   z-index: 1;
-  margin: 90px 0 0 50px;
+  margin: 70px 0 0 50px;
   text-align: right;
  
   font-size: 12px;
@@ -1084,7 +1084,7 @@ background-color: #000;
 
 #userinfo_minor {
   right: 0;
-  margin: 62px 50px 0 0;
+  margin: 49px 50px 0 0;
 }
 
 #userinfo_minor li, #userinfo_major li {
