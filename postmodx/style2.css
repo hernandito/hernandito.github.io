@@ -457,12 +457,11 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 #extra2 {
   position: absolute;
   top: 0;
-  margin: 125px 0 0;
+  margin: 88px 0 0;
   width: 100%;
   height: 50px;
-  background-color: #2e2e2e;
-  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  background-color: #ddd;
+
 }
 
 #flip_view_1, #flip_view_2, canvas#similarArtistsCanvas {
@@ -787,7 +786,7 @@ background-color: #000;
   margin-left: 14%;
   width: 675px;
   height: 275px;
-  background: url("https://passtheheadphones.me/static/styles/dark_mono_v2/img/trump.png") no-repeat !important;
+
 }
 
 #rules span#Index {
@@ -819,7 +818,7 @@ background-color: #000;
 
 #searchbars {
   position: absolute;
-  top: 125px;
+  top: 87px;
   margin: 0;
   padding: 12px 5px;
   width: 100%;
@@ -846,10 +845,7 @@ background-color: #000;
   padding: 5px 10px;
   width: 130px;
   height: 15px;
-  border: 1px solid #3B3B3B;
-  background: rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+
   color: #666;
   transition: .25s ease-in-out;
   -webkit-transition: .25s ease-in-out;
@@ -1356,11 +1352,9 @@ span[style="float: right;"] > input[value="Preview"], span[style="float: right;"
 
 input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="url"], textarea {
   padding: 5px 10px;
-  border: 1px solid #3B3B3B;
-  background: rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
-  color: #9A9A9A;
+  border: 1px solid #D7D7D7;
+
+
   transition: .25s ease-in-out;
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
