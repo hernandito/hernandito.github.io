@@ -362,7 +362,7 @@ h3#irc + .box.pad ul li:last-child, h3#general + .box.pad ul li:last-child {
 
 #content {
   overflow: hidden;
-  margin: 150px auto 50px !important;
+  margin: 90px auto 50px !important;
   width: 1000px;
   line-height: 1.4em;
 }
@@ -675,8 +675,8 @@ background-color: #000;
 }
 
 #menu .active a {
-  background-color: #1c1c1c;
-  color: #F9A440;
+  background-color: #2d2d2d;
+  color: #FFB811;
 }
 
 #menu .active a:hover {
