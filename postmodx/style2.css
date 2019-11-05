@@ -949,7 +949,7 @@ background-color: #000;
   width: 20px;
 }
 
-#torrent_table tr.group:hover img, #discog_table tr.discog:hover img, .torrent_table.cats.numbering.border tr.torrent:hover img, .torrent_table tr.torrent_row:hover img, .torrent_table tr.torrent:hover img {
+#torrent_table tr.group:hover img, #discog_table tr.discog:hover img, .torrent_table.cats.numbering.border tr.torrent:hover img, .torrent_table img, .torrent_table tr.torrent:hover img {
   border: 2px solid #528BA3 !important;
   opacity: 1 !important;
   transition: opacity .25s ease-in-out;
@@ -957,6 +957,9 @@ background-color: #000;
   -moz-transition: opacity .25s ease-in-out;
   -o-transition: opacity .25s ease-in-out;
 }
+/*
+tr.torrent_row:hover 
+*/
 
 /* Hover opacity for artwork in torrent lists */
 #torrents .submit input[value="Reset"] {
@@ -2364,7 +2367,7 @@ li.graph .center_poll {
 }
 
 tr.group {
-  background: #1c1c1c;
+  background: #ebf7ff;
 }
 tr.group .group_info {
   line-height: 1.6em;
@@ -2383,7 +2386,7 @@ tr.group_torrent {
   font-size: 12px;
 }
 tr.group_torrent td.edition_info {
-  background: #333333;
+  background: #eaeaea;
 }
 
 .news_post {
