@@ -697,10 +697,11 @@ background-color: #000;
 
 #menu li a {
   padding: 13px 7px 15px;
+  font-weight: bold;
 }
 
 #menu li a:hover {
-  color: red;
+  color: #50adff;
    padding: 13px 7px 15px;
 }
 
@@ -1100,7 +1101,7 @@ background-color: #000;
 
 #userinfo_minor a, #userinfo_username a, #userinfo_major a, #menu a:hover, #userinfo_stats a:hover {
   padding: 2px 0px;
-  color: #1f71b9;
+  color: #528ba3;
 }
 
 #userinfo_username a.username {
