@@ -695,9 +695,15 @@ background-color: #000;
   padding: 0;
 }
 
-#menu li a, #menu li a:hover {
+#menu li a, {
   padding: 13px 7px 15px;
 }
+
+#menu li a:hover {
+  color: red;
+}
+
+
 
 #nav_userinfo, #nav_useredit, #nav_logout, #nav_upload, #nav_invite, #nav_donate, #nav_store {
   display: inline-block !important;
@@ -1093,7 +1099,7 @@ background-color: #000;
 
 #userinfo_minor a, #userinfo_username a, #userinfo_major a, #menu a:hover, #userinfo_stats a:hover {
   padding: 2px 0px;
-  color: #666;
+  color: #1f71b9;
 }
 
 #userinfo_username a.username {
