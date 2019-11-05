@@ -1283,7 +1283,7 @@ background-color: #000;
 blockquote, #inbox .box.pad #preview {
   margin-top: 5px;
   padding: 10px;
-  border: 1px solid #333;
+  border: 1px solid #a8a8a8;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
