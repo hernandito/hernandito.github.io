@@ -1101,7 +1101,7 @@ background-color: #000;
 
 #userinfo_minor a, #userinfo_username a, #userinfo_major a, #menu a:hover, #userinfo_stats a:hover {
   padding: 2px 0px;
-  color: #528ba3;
+  color: #0387c8;
 }
 
 #userinfo_username a.username {
@@ -1111,7 +1111,7 @@ background-color: #000;
 }
 
 #userinfo_minor a:hover, #userinfo_major a:hover, #userinfo_username a:hover {
-  color: #444;
+  color: #b90d0d;
 }
 
 #user #content > .thin.center > .box form input[maxlength="100"] {
@@ -1170,6 +1170,7 @@ background-color: #000;
 
 #upload .box.pad > h3 + p + p a, .stat, #vote_rankings.stats li {
   font-weight: bold;
+  color: #0387c8;
 }
 
 #vanityhouse.torrent_table tr td {
@@ -1846,8 +1847,8 @@ li.graph .center_poll {
 .head, .colhead td, .colhead th, .recent .colhead td, .colhead_dark td, tr.colhead {
   margin: -10px;
   margin-bottom: 10px;
-  padding: 8px 10px !important;
-  
+  padding: 6px 10px !important;
+
   /*
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1d1d1d), to(#191919));
   background-image: -webkit-linear-gradient(top, #1d1d1d, #191919);
@@ -1855,9 +1856,12 @@ li.graph .center_poll {
   background-image: -o-linear-gradient(top, #1d1d1d, #191919);
   background-image: linear-gradient(to bottom, #1d1d1d, #191919);
 */
-background-color: a8a8a8;
+
 
   font-weight: bold;
+  background-color: #fbf1bb;  
+  border: 1px solid #d9d6d6;
+  
 }
 
 .hidden {
