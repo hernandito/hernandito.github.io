@@ -1099,7 +1099,7 @@ input[type="button"]:active, input[type="button"]:focus, input[type="submit"]:ac
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
-	background: #111 url(images/alert-overlay.png) repeat-x;
+/*	background: #111 url(images/alert-overlay.png) repeat-x; */
 	display: inline-block;
 	padding: 3px;
 	margin: 3px;
