@@ -460,8 +460,7 @@ font-size: 11px;
 
 #searchbars input:active,
 #searchbars input:focus {
-/*	background: url('images/content.png'); */
-background-color: #000;
+	background: url('images/content.png');
 	border: 1px solid #EEE;
 }
 
@@ -490,8 +489,7 @@ background-color: #000;
 	left: 0;
 	z-index: 1000;
 	border: 1px solid #EEE;
-/*	background: url('images/content.png'); */
-background-color: #000;
+	background: url('images/content.png');
 	width: 12em;
 	margin-top: 12px;
 }
