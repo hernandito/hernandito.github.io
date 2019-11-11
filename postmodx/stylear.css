@@ -327,8 +327,24 @@ color: #B9FF77 !important;
 font-weight: bold !important;
 text-decoration: none !important;
 }
+*/
 
+#donation-outer {
+    position: absolute;
+    top: 60px;
+    right: 7.5%;
+    background: none repeat scroll 0% 0% 
+    #303030;
+    height: 15px;
+    width: 150px;
+    padding: 3px;
+}
 
+#donation-inner {
+    background: none repeat scroll 0% 0% 
+    #8A0829;
+    height: 100%;
+}
 
 #donation-link {
 	position: absolute;
@@ -341,7 +357,7 @@ text-decoration: none !important;
 	font-size: 8pt;
 	text-shadow: -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, 1px 1px 0px #000;
 }
-*/
+
 
 #userinfo {
 	position: absolute;
