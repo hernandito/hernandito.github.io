@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	background: #000 url('images/bgx.png') fixed repeat;
+	background: #000 url('images/bgx2.png') fixed repeat;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 9pt;
 	color: #EEE;
@@ -343,8 +343,7 @@ text-decoration: none !important;
 }
 #userinfo_username {
 	position: absolute;
-	margin: 67px 0 0 16px; /* was 94 */
-	background-color: #000;
+
 	
 }
 #userinfo_stats {
