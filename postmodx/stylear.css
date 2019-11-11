@@ -218,7 +218,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	height: 38px;
 	position: absolute;
 	padding: 0 0 0 0;
-	margin: -10px 0 0 340px;
+	margin: -10px 0 0 360px;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 11pt;
 }
@@ -340,7 +340,7 @@ text-decoration: none !important;
 #userinfo_major {
 	position: absolute;
 	width: 609px;
-	margin: 112px 0 0 16px;
+	margin: 36px 0 0 6px;
 	text-align: left;
 }
 #userinfo_username {
@@ -349,7 +349,7 @@ text-decoration: none !important;
 	
 }
 #userinfo_stats {
-	margin: 84px 0 0 16px;
+	margin: 22px 0 0 6px;
 	position: absolute;
 	font-size: 10px;
 }
@@ -361,7 +361,7 @@ text-decoration: none !important;
 #userinfo_minor {
 position: absolute;
 width: 735px;
-margin: 110px 0 0 198px;
+margin: 40px 0 0 160px;
 text-align: right;
 float: right;
 }
