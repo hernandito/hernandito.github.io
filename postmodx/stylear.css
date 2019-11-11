@@ -331,13 +331,14 @@ text-decoration: none !important;
 
 #donation-outer {
     position: absolute;
-    top: 60px;
+    top: 90px;
     right: 7.5%;
     background: none repeat scroll 0% 0% 
     #303030;
     height: 15px;
     width: 150px;
     padding: 3px;
+	z-index: 10;
 }
 
 #donation-inner {
