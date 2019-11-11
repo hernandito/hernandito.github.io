@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	background: #000 url('images/symphony2.png') fixed repeat;
+	background: #000 url('images/bgx.png') fixed repeat;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 9pt;
 	color: #EEE;
@@ -197,7 +197,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	width: 258px;
 	height: 45px;
 	background: url('images/arbanner.png') no-repeat top left;
-	margin: 13px 0 0 11px;
+	margin: 5px 0 0 11px;
 	position: absolute;
 	z-index: 2;
 }
