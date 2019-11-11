@@ -47,7 +47,7 @@ a {
 	text-decoration: none;
 	border: none;
 /*	color: #3980BB; */
-	color: #4373CA;
+	color: #003651;
 }
 
 a img {
@@ -94,7 +94,7 @@ a[onclick^="AddArtistField"]:focus, a[onclick^="AddArtistField"]:active {
 
 h1, h2, h3 {
 	margin: 5px 0px;
-	color: #C40F0F;
+	color: #fff;
 	font-family: Akzidenz, sans-serif;
 }
 
@@ -328,6 +328,20 @@ font-weight: bold !important;
 text-decoration: none !important;
 }
 */
+
+
+#donation-link {
+	position: absolute;
+	top: 60px;
+	right: 7.5%;
+	height: 15px;
+	width: 150px;
+	padding: 3px;
+	text-align: center;
+	font-size: 8pt;
+	text-shadow: -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, 1px 1px 0px #000;
+}
+
 
 #userinfo {
 	position: absolute;
@@ -618,8 +632,9 @@ p.min_padding {
 	background-color: #F7F6F2;
 	margin-bottom: 10px;
 /*	padding-top: 4px;
-	padding-bottom: 4px; */
+	padding-bottom: 4px; 
 	border: 1px solid #d0d0d0;
+	*/
 }
 
 .box2 {
