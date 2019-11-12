@@ -55,7 +55,7 @@ a img {
 }
 
 table tbody a, .main_column a, .sidebar a, .box a {
-	color: #0A84AF;
+	color: #0A84AF !important;
 }
 
 table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover {
@@ -613,7 +613,7 @@ input.hidden {
 .linkbox {
 	text-align:center;
 	padding: 5px;
-	color: #FCFCFC;
+	color: #737373;
 	padding-bottom: 5px;
 
 }
@@ -656,7 +656,7 @@ p.min_padding {
 }
 
 .box {
-	font-size: 10pt;
+	font-size: 8pt;
 	background-color: #F7F6F2;
 	margin-bottom: 10px;
 /*	padding-top: 4px;
@@ -1148,10 +1148,10 @@ input[type="text"], input[type="email"], input[type="password"], input[type="sea
 	margin: 3px;
 	color: #333;
 	text-decoration: none;
-	border-top: 1px solid #777;
-	border-left: 1px solid #777;
-	border-right: 1px solid #333;
-	border-bottom: 1px solid #333;
+	border: 1px solid #cacaca;
+
+	
+	font-size: 9px;
 }
 
 input[type="text"]:hover,
