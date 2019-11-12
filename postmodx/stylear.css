@@ -161,7 +161,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	margin: 0 auto 0 auto;
 
 	color: #DFDFDF;
-	background: transparent url('images/content3a.png');
+	background: transparent url('images/content3.png');
 	padding: 10px 22px;
 	overflow: hidden;
 }
@@ -331,14 +331,14 @@ text-decoration: none !important;
 
 #donation-outer {
     position: absolute;
-    top: 90px;
+    top: 61px;
 
     background: none repeat scroll 0% 0% #005986;
     height: 15px;
     width: 150px;
     padding: 1px;
 	z-index: 10;
-	margin: 72px 0px 0px 674px;
+	margin: 72px 0px 0px 777px;
 }
 
 #donation-inner {
@@ -364,11 +364,11 @@ color: white !important;
 }
 
 
-#donation-link: a{
-color: #fff;
+#donation-link a{
+color: #fff !important;
 }
-#donation-link: a:hover{
-color: #ffdb6a;
+#donation-link a:hover{
+color: #ffdb6a !important;
 }
 
 
