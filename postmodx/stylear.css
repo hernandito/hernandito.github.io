@@ -1247,11 +1247,11 @@ tr.torrent .bookmark > a:after {
 }
 
 #userinfo_username .brackets:before {
-	content: "[";
+	
 }
 
 #userinfo_username .brackets:after {
-	content: "]";
+	
 }
 
 .field_div {
