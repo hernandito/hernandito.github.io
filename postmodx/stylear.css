@@ -60,7 +60,7 @@ table tbody a, .main_column a, .sidebar a, .box a {
 
 table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover {
 	color: #AF0A0A;
-
+	font-weight: bold;
 }
 
 #header a:hover, .linkbox a:hover {
@@ -644,7 +644,7 @@ p.min_padding {
 }
 
 .pad {
-	padding: 6px;
+	padding: 1em;
 }
 
 .sidebar .pad {
