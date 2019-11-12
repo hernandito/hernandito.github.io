@@ -302,9 +302,9 @@ font-weight: bold;
 text-decoration: none;
 }
 
-.username a hover {
+.username a:hover {
 text-decoration: none;
-color: black !important;
+color: #a80000 !important;
 }
 
 
