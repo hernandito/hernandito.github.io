@@ -1190,20 +1190,20 @@ select[disabled=disabled] { background: #4F4F4F; color: #DFDFDF; }
 select[disabled=disabled]:hover, select[disabled=disabled]:focus, select[disabled=disabled]:active { background-color: #4F4F4F; color: #DFDFDF; }
 
 select, select:active, select:focus {
-	background: #111 /*url(images/alert-overlay.png)*/ repeat-x;
+	background: #e1e1e1  /*url(images/alert-overlay.png)*/ repeat-x;
 	display: inline-block;
 	margin: 3px;
-	color: #fff;
+	color: #353535;
 	text-decoration: none;
 	border: 0;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
 option, option:active, option:focus {
-	background: #111;
+	background: #eaeaea ;
 	padding: 1px;
 	margin: 0;
-	color: #fff;
+	color: #353535;
 	text-decoration: none;
 	border: 0;
 	font-family: Helvetica, Arial, sans-serif;
