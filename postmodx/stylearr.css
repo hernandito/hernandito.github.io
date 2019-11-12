@@ -1197,6 +1197,7 @@ select, select:active, select:focus {
 	text-decoration: none;
 	border: 0;
 	font-family: Helvetica, Arial, sans-serif;
+	border: 1px solid #b5b5b5;
 }
 
 option, option:active, option:focus {
@@ -1210,7 +1211,7 @@ option, option:active, option:focus {
 }
 
 select:hover, option:hover {
-	background: #3F3F3F;
+	background: #bfbfbf;
 }
 
 #logchecker .thin, #logchecker h3, .log_outer, .log_outer h3 {
