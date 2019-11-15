@@ -705,7 +705,8 @@ p.min_padding {
 }
 
 .tags a {
-	color: #8d957e;
+	color: #8d957e !important;
+		font-weight: normal !important
 }
 
 .tags a:hover {
