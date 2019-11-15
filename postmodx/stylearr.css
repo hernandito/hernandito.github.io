@@ -59,10 +59,12 @@ table tbody a, .main_column a, .sidebar a, .box a {
 }
 
 table tbody a, .main_column a, .sidebar a, .box a {
-	color: #000 !important;
+	color: #0075b1  !important;
 }
 
-
+table tbody a, {
+	color: #a60000   !important;
+}
 
 #header a:hover, .linkbox a:hover {
 color: #99daff !important;
