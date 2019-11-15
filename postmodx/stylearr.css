@@ -58,10 +58,11 @@ table tbody a, .main_column a, .sidebar a, .box a {
 	color: #0A84AF !important;
 }
 
-table tbody a:hover, .main_column a:hover, .sidebar a:hover, .box a:hover {
-	color: #AF0A0A;
-	font-weight: bold;
+table tbody a, .main_column a, .sidebar a, .box a {
+	color: #000 !important;
 }
+
+
 
 #header a:hover, .linkbox a:hover {
 color: #99daff !important;
@@ -388,6 +389,7 @@ color: #ffdb6a !important;
 }
 #userinfo_username {
 	position: absolute;
+	width: 700px;
 
 	
 }
@@ -700,6 +702,7 @@ p.min_padding {
 .tags {
 	padding: 0px 0px 0px 20px;
 	font-style: italic;
+	color: #6f6f6f !important;
 }
 
 .tags a {
@@ -707,7 +710,8 @@ p.min_padding {
 }
 
 .tags a:hover {
-	color: #444;
+	color: #970000 !important;
+	font-weight: normal !important;
 }
 
 .noborder {
